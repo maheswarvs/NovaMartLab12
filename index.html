@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home – NOVA MART</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+<main>
+<section class="hero"><div class="wrap hero-in">
+  <div class="hero-copy"><p class="kicker">The autumn edit</p><h1>Everyday things, chosen with care.</h1>
+  <p>Clothing, bags, home pieces and gadgets from makers we trust. Free delivery on orders above ₹999.</p>
+  <div class="row"><a class="btn dark" href="products.html">Shop the collection</a><a class="btn line" href="products.html?cat=Bags">Browse bags</a></div></div>
+  <img src="images/hero.svg" alt="A shop window with a leather bag, a table lamp and headphones"></div></section>
+<div class="trust wrap"><div><b>Free delivery</b>On orders above ₹999</div><div><b>Easy returns</b>Within 14 days</div><div><b>Cash on delivery</b>Pay when it arrives</div><div><b>Quality checked</b>Every item, every order</div></div>
+
+<section class="wrap sec"><div class="sec-head"><h2>Shop by category</h2><a href="products.html">View all products</a></div><div id="home-cats" class="cats"></div></section>
+<section class="wrap sec"><div class="sec-head"><h2>Featured this season</h2><a href="products.html">See more</a></div><div id="home-featured" class="feat"></div></section>
+
+<section class="wrap promos">
+  <a class="promo a" href="products.html?cat=Accessories"><span class="tag">Special offer</span><h3>Up to 24% off watches and sunglasses</h3><span class="btn">Shop accessories</span></a>
+  <a class="promo b" href="products.html?cat=Electronics"><span class="tag">Sound sale</span><h3>Save on headphones and speakers</h3><span class="btn">Shop electronics</span></a></section>
+
+<section class="wrap sec"><div class="sec-head"><h2>Best sellers</h2><a href="products.html">Shop all</a></div><div id="home-best" class="list2"></div></section>
+
+<section class="wrap sec"><div class="sec-head"><h2>What customers say</h2></div><div class="quotes">
+  <blockquote><p>“The leather bag looks even better in person. Solid stitching, and it arrived in two days.”</p><cite>Ananya R., Bengaluru</cite></blockquote>
+  <blockquote><p>“Easy returns and honest sizing. The merino sweater is now my favourite.”</p><cite>Rohit M., Pune</cite></blockquote>
+  <blockquote><p>“Good prices, clear descriptions and cash on delivery. Exactly what I wanted.”</p><cite>Meera S., Chennai</cite></blockquote></div></section>
+
+<section class="news"><div class="wrap news-in"><div><h2>Join the NOVA MART list</h2><p>New arrivals and seasonal offers, once a week.</p></div>
+  <form id="newsletter" novalidate><input name="email" type="email" placeholder="Your email address" aria-label="Email address"><button class="btn dark">Subscribe</button><p class="form-msg" role="status"></p></form></div></section>
+</main>
+<div id="site-footer"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/products.js"></script>
+</body>
+</html>

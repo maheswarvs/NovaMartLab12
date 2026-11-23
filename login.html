@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login / Register – NOVA MART</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+<main class="wrap narrow"><div class="page-head"><h1>Your account</h1></div>
+<p class="notice"><b>Demo only.</b> This login runs entirely in your browser and saves accounts in localStorage. It is a frontend demonstration, not secure authentication. Do not use a real password.</p>
+<div id="signed-in" hidden><div class="box"><h2>Signed in</h2><p>You are signed in as <b id="signed-name"></b>.</p><br><div class="row"><a class="btn dark" href="products.html">Continue shopping</a><button id="logout" class="btn line">Log out</button></div></div></div>
+<div id="auth-box"><div class="tabs" role="tablist"><button role="tab" class="on" data-tab="login">Login</button><button role="tab" data-tab="register">Register</button></div>
+<form id="login-form" novalidate><label>Email<input name="email" type="email" autocomplete="email"><span class="err" data-err="email"></span></label><label>Password<input name="password" type="password" autocomplete="current-password"><span class="err" data-err="password"></span></label><button class="btn dark full" type="submit">Log in</button><p class="form-msg" role="status"></p></form>
+<form id="register-form" novalidate hidden><label>Full name<input name="name" type="text" autocomplete="name"><span class="err" data-err="name"></span></label><label>Email<input name="email" type="email" autocomplete="email"><span class="err" data-err="email"></span></label><label>Password<input name="password" type="password" autocomplete="new-password" placeholder="8+ characters, with a number"><span class="err" data-err="password"></span></label><label>Confirm password<input name="confirm" type="password" autocomplete="new-password"><span class="err" data-err="confirm"></span></label><button class="btn dark full" type="submit">Create account</button><p class="form-msg" role="status"></p></form></div></main>
+<div id="site-footer"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>

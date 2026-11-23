@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shopping cart – NOVA MART</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+<main class="wrap"><div class="page-head"><h1>Shopping cart</h1></div>
+<div class="cart-layout"><div id="cart-items"><p class="empty">Loading your cart…</p></div>
+<aside id="cart-summary" class="box" hidden><h2>Order summary</h2>
+<div class="sum-row"><span>Subtotal</span><span id="sum-sub"></span></div><div class="sum-row"><span>Delivery</span><span id="sum-ship"></span></div>
+<div class="sum-row total"><span>Total</span><span id="sum-total"></span></div><small>Free delivery on orders above ₹999.</small>
+<a class="btn dark full" href="checkout.html">Proceed to checkout</a><a class="btn line full" href="products.html">Continue shopping</a></aside></div></main>
+<div id="site-footer"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>

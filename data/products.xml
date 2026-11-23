@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NOVA MART product catalogue: the single data source for every product page -->
+<products>
+  <product id="1">
+    <name>Aurora Chronograph Watch</name>
+    <category>Accessories</category>
+    <price>8499</price>
+    <oldPrice>9999</oldPrice>
+    <rating>4.6</rating>
+    <reviews>212</reviews>
+    <stock>14</stock>
+    <featured>true</featured>
+    <bestseller>true</bestseller>
+    <image>images/product-1.svg</image>
+    <description>Brushed steel case with a sapphire-coated glass, 40 mm dial and a tan leather strap. Water resistant to 50 m.</description>
+  </product>
+  <product id="2">
+    <name>Studio Wireless Headphones</name>
+    <category>Electronics</category>
+    <price>6999</price>
+    <oldPrice>8499</oldPrice>
+    <rating>4.5</rating>
+    <reviews>389</reviews>
+    <stock>22</stock>
+    <featured>true</featured>
+    <bestseller>true</bestseller>
+    <image>images/product-2.svg</image>
+    <description>Over-ear headphones with active noise cancelling, 35-hour battery and memory-foam cushions for long listening.</description>
+  </product>
+  <product id="3">
+    <name>Linen Overshirt</name>
+    <category>Fashion</category>
+    <price>2299</price>
+    <oldPrice>2799</oldPrice>
+    <rating>4.3</rating>
+    <reviews>127</reviews>
+    <stock>40</stock>
+    <featured>true</featured>
+    <bestseller>false</bestseller>
+    <image>images/product-3.svg</image>
+    <description>Relaxed overshirt in washed European linen with chest pockets and horn-effect buttons. Gets softer with every wash.</description>
+  </product>
+  <product id="4">
+    <name>Leather Weekender Bag</name>
+    <category>Bags</category>
+    <price>5499</price>
+    <oldPrice>6499</oldPrice>
+    <rating>4.7</rating>
+    <reviews>164</reviews>
+    <stock>9</stock>
+    <featured>true</featured>
+    <bestseller>true</bestseller>
+    <image>images/product-4.svg</image>
+    <description>Full-grain leather duffel with a zipped main compartment, shoe pocket and removable shoulder strap.</description>
+  </product>
+  <product id="5">
+    <name>Trail Runner Sneakers</name>
+    <category>Footwear</category>
+    <price>3799</price>
+    <oldPrice>4499</oldPrice>
+    <rating>4.4</rating>
+    <reviews>301</reviews>
+    <stock>31</stock>
+    <featured>false</featured>
+    <bestseller>true</bestseller>
+    <image>images/product-5.svg</image>
+    <description>Lightweight everyday sneakers with a breathable knit upper and a cushioned, high-grip rubber sole.</description>
+  </product>
+  <product id="6">
+    <name>Arc Table Lamp</name>
+    <category>Home</category>
+    <price>2999</price>
+    <oldPrice>3499</oldPrice>
+    <rating>4.6</rating>
+    <reviews>88</reviews>
+    <stock>17</stock>
+    <featured>false</featured>
+    <bestseller>false</bestseller>
+    <image>images/product-6.svg</image>
+    <description>Matte-black metal lamp with a warm-toned shade and an adjustable arm. Takes any E27 bulb.</description>
+  </product>
+  <product id="7">
+    <name>Stoneware Mug Set of 4</name>
+    <category>Home</category>
+    <price>1199</price>
+    <oldPrice>1499</oldPrice>
+    <rating>4.2</rating>
+    <reviews>256</reviews>
+    <stock>60</stock>
+    <featured>false</featured>
+    <bestseller>true</bestseller>
+    <image>images/product-7.svg</image>
+    <description>Hand-glazed stoneware mugs, 320 ml each. Dishwasher and microwave safe.</description>
+  </product>
+  <product id="8">
+    <name>Pocket Bluetooth Speaker</name>
+    <category>Electronics</category>
+    <price>3299</price>
+    <oldPrice>3999</oldPrice>
+    <rating>4.4</rating>
+    <reviews>143</reviews>
+    <stock>25</stock>
+    <featured>true</featured>
+    <bestseller>false</bestseller>
+    <image>images/product-8.svg</image>
+    <description>Compact speaker with surprisingly full sound, 12-hour playtime and an IP67 water-resistant body.</description>
+  </product>
+  <product id="9">
+    <name>Aviator Sunglasses</name>
+    <category>Accessories</category>
+    <price>1899</price>
+    <oldPrice>2499</oldPrice>
+    <rating>4.1</rating>
+    <reviews>98</reviews>
+    <stock>45</stock>
+    <featured>false</featured>
+    <bestseller>false</bestseller>
+    <image>images/product-9.svg</image>
+    <description>Lightweight metal frame with polarised, UV400 lenses. Comes with a hard case and cleaning cloth.</description>
+  </product>
+  <product id="10">
+    <name>Canvas Daypack</name>
+    <category>Bags</category>
+    <price>2199</price>
+    <oldPrice>2599</oldPrice>
+    <rating>4.5</rating>
+    <reviews>210</reviews>
+    <stock>36</stock>
+    <featured>false</featured>
+    <bestseller>true</bestseller>
+    <image>images/product-10.svg</image>
+    <description>Waxed canvas backpack with a padded 15-inch laptop sleeve and two quick-access side pockets.</description>
+  </product>
+  <product id="11">
+    <name>Merino Crew Sweater</name>
+    <category>Fashion</category>
+    <price>3499</price>
+    <oldPrice>4299</oldPrice>
+    <rating>4.8</rating>
+    <reviews>176</reviews>
+    <stock>19</stock>
+    <featured>true</featured>
+    <bestseller>false</bestseller>
+    <image>images/product-11.svg</image>
+    <description>Fine-gauge merino wool crew neck that is warm without bulk. Machine washable on a wool cycle.</description>
+  </product>
+  <product id="12">
+    <name>Suede Chelsea Boots</name>
+    <category>Footwear</category>
+    <price>5999</price>
+    <oldPrice>6999</oldPrice>
+    <rating>4.5</rating>
+    <reviews>119</reviews>
+    <stock>12</stock>
+    <featured>false</featured>
+    <bestseller>false</bestseller>
+    <image>images/product-12.svg</image>
+    <description>Handcrafted suede boots with elastic side panels, a leather lining and a stitched crepe sole.</description>
+  </product>
+</products>
